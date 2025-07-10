@@ -23,7 +23,7 @@ const Rolebasedloginproject = () => {
     const Submitdata = () => {
         if (Validate()) {
             const founduser = logindetails.find(
-                (u) => inputdata.email === u.uname && inputdata.password === u.password
+                (u) => inputdata.uname === u.email && inputdata.password === u.password
             );
 
             if (founduser) {
