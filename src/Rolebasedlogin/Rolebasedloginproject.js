@@ -53,7 +53,8 @@ const Rolebasedloginproject = () => {
 
     const Logoutbtn = () => {
         setUserdata(null);
-        setInputdata('');
+        setInputdata(data);  // fix: not ''
+        setError({});
     }
 
     if (userdata) {
