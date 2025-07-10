@@ -73,6 +73,9 @@ const Rolebasedloginproject = () => {
         <>
             <div style={{ margin: '40px' }}>
                 <h2>Role based login project</h2>
+        <h4>Login details are below</h4>
+        <h5>For student: email- student@gmail.com , password - 123</h5>
+        <h5>For teacher: email- teacher@gmail.com , password - abc</h5>
                 <div>
                     <form>
                         <div>
